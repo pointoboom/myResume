@@ -1,7 +1,7 @@
 function AboutMe() {
   return (
     <div
-      className="flex flex-col justify-center items-center py-[100px] "
+      className="flex flex-col justify-center items-center py-[100px] bg-emerald-100 "
       id="aboutme"
     >
       <div className="flex flex-row justify-center items-center">
@@ -13,7 +13,7 @@ function AboutMe() {
         </span>
       </div>
 
-      <div className="flex flex-row justify-center  py-[30px] pl-[200px]">
+      <div className="flex flex-col sm:flex-row justify-center  py-[30px] pl-[100px] sm:pl-[200px]">
         <div>
           <div className=" text-[40px] font-semibold mb-[10px] text-[#002265]">
             Education
@@ -24,7 +24,7 @@ function AboutMe() {
             <div> - GPA: 2.52</div>
           </div>
         </div>
-        <div className="border-[2px] border-blue-700 h-[150px] mx-[20px]"></div>
+        <div className="border-[2px] border-blue-700 sm:h-[150px] mx-[20px]"></div>
         <div>
           <div className=" text-[40px] font-semibold mb-[10px] text-[#002265]">
             Experince

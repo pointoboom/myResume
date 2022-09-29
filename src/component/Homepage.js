@@ -4,6 +4,7 @@ import AboutMe from "./AboutMe";
 import ContactMe from "./ContactMe";
 import Passion from "./Passion";
 import Portfolio from "./Portfolio";
+import Footpage from "./footpage";
 function Homepage() {
   return (
     <>
@@ -18,6 +19,7 @@ function Homepage() {
       </main>
       <footer>
         <ContactMe />
+        <Footpage />
       </footer>
     </>
   );
