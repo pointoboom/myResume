@@ -13,15 +13,15 @@ function Portfolio() {
       </div>
       <div className="flex flex-col sm:flex-row justify-center items-center">
         <div className="box-card border-2 rounded-[15px] w-[350px] h-[300px]  m-[50px] flex flex-col justify-around items-center bg-white">
-          <img className="w-[300px] h-[200px]" src={port1} alt="" />
+          <img className="w-[300px] h-[200px]" src={port1} alt="portfolio" />
           <div className=" text-[30px] font-semibold">Order Management</div>
         </div>
         <div className="box-card border-2 rounded-[15px] w-[350px] h-[300px]  m-[50px] flex flex-col justify-around items-center bg-white">
-          <img className="w-[300px] h-[200px]" src={port1} alt="" />
+          <img className="w-[300px] h-[200px]" src={port1} alt="portfolio" />
           <div className=" text-[30px] font-semibold">Feedback Webapp</div>
         </div>
         <div className="box-card border-2 rounded-[15px] w-[350px] h-[300px]  m-[50px] flex flex-col justify-evenly items-center bg-white">
-          <img className="w-[300px] h-[200px]" src={port1} alt="" />
+          <img className="w-[300px] h-[200px]" src={port1} alt="portfolio" />
           <div className=" text-[30px] font-semibold">Product Dashboard</div>
         </div>
       </div>

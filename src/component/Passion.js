@@ -22,9 +22,13 @@ function Passion() {
       <div className="flex flex-col sm:flex-row  px-[100px] ">
         <div className="box-card border-2 rounded-[15px] w-[350px] h-[300px] sm:h-[300px]  m-[50px] flex flex-col justify-evenly items-center bg-white">
           <div className="flex flex-row justify-center items-center">
-            <img className="w-[100px] h-[100px] " src={tailwind} alt="" />
-            <img className="w-[100px] h-[100px] " src={reactImg} alt="" />
-            <img className="w-[100px] h-[100px] " src={vue} alt="" />
+            <img
+              className="w-[100px] h-[100px] "
+              src={tailwind}
+              alt="tailwind"
+            />
+            <img className="w-[100px] h-[100px] " src={reactImg} alt="react" />
+            <img className="w-[100px] h-[100px] " src={vue} alt="vue" />
           </div>
 
           <div className=" text-[30px] font-semibold">Front-End Developer</div>
@@ -34,16 +38,20 @@ function Passion() {
         </div>
         <div className="box-card  border-2 rounded-[15px]  w-[350px] h-[300px] m-[50px] flex flex-col justify-evenly items-center bg-white">
           <div className="flex flex-row justify-center items-center">
-            <img className="w-[100px] h-[100px] " src={js} alt="" />
-            <img className="w-[100px] h-[100px] " src={nodeJs} alt="" />
+            <img className="w-[100px] h-[100px] " src={js} alt="js" />
+            <img className="w-[100px] h-[100px] " src={nodeJs} alt="node" />
           </div>
           <div className=" text-[30px] font-semibold">Back-End Developer</div>
           <div className="text-[20px] font-semibold">Javascript,NodeJs</div>
         </div>
         <div className="box-card  border-2 rounded-[15px]  w-[350px] h-[300px] m-[50px] flex flex-col justify-evenly items-center bg-white">
           <div className="flex flex-row justify-evenly items-center">
-            <img className="w-[100px] h-[100px] " src={mongoDB} alt="" />
-            <img className="w-[100px] h-[100px] " src={firebaseLogo} alt="" />
+            <img className="w-[100px] h-[100px] " src={mongoDB} alt="mongo" />
+            <img
+              className="w-[100px] h-[100px] "
+              src={firebaseLogo}
+              alt="firebase"
+            />
           </div>
           <div className=" text-[30px] font-semibold">Database</div>
           <div className="text-[20px] font-semibold">MongoDB,Firebase</div>

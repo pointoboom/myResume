@@ -18,7 +18,7 @@ function Introduction() {
         <img
           className=" rounded-full sm:w-[400px] sm:h-[400px] "
           src={Profile}
-          alt=""
+          alt="Profilepicture"
         />
       </div>
     </div>

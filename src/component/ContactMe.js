@@ -17,10 +17,10 @@ function ContactMe() {
       </div>
       <div className="flex flex-col sm:flex-row justify-center items-center ">
         <a href="https://github.com/pointoboom" target="_blank">
-          <img className="mb-[20px]" src={git} alt="" />
+          <img className="mb-[20px]" src={git} alt="gitprofile" />
         </a>
         <a href="https://www.instagram.com/pointo.boom/" target="_blank">
-          <img className="mb-[20px]" src={ig} alt="" />
+          <img className="mb-[20px]" src={ig} alt="igprofile" />
         </a>
 
         <img
