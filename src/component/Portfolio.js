@@ -3,7 +3,7 @@ function Portfolio() {
   return (
     <div
       id="portfolio"
-      className="flex flex-col justify-center items-center bg-emerald-100"
+      className="flex flex-col justify-center items-center bg-emerald-100 py-[100px]"
     >
       <div className="flex flex-row justify-center items-center">
         <span className="text-[50px] mr-[10px] text-[#14279B]">My</span>

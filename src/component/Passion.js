@@ -10,7 +10,7 @@ function Passion() {
   return (
     <div
       id="passion"
-      className="flex flex-col justify-center items-center  py-[50px]"
+      className="flex flex-col justify-center items-center  py-[100px]"
     >
       <div className="flex flex-row justify-center items-center">
         <span className="text-[50px] mr-[10px] text-[#14279B]">My</span>
