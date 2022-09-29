@@ -18,8 +18,8 @@ function Navbar() {
         </svg>
       </div>
 
-      <div className="navbar hidden sm:flex justify-end flex-row  pr-[40px] text-[20px] p-[30px] font-semibold">
-        <div className="flex flex-row justify-center items-center">
+      <div className="navbar hidden sm:flex justify-end flex-row  pr-[40px] text-[20px] p-[30px] font-semibold ">
+        <div className="flex flex-row justify-center items-center ">
           <a href="#aboutme" className="">
             About
           </a>

@@ -5,10 +5,11 @@ import ContactMe from "./ContactMe";
 import Passion from "./Passion";
 import Portfolio from "./Portfolio";
 import Footpage from "./footpage";
+
 function Homepage() {
   return (
     <>
-      <header>
+      <header className=" sticky top-0">
         <Navbar />
       </header>
       <main>
