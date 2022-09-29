@@ -1,12 +1,12 @@
 import image from "../Img/Image.svg";
 function Introduction() {
   return (
-    <div className=" font-semibold flex flex-row justify-evenly items-center  px-[100px] pt-[50px]">
+    <div className="flex flex-row justify-evenly items-center  px-[100px] pt-[50px]">
       <div className=" flex flex-col justify-center ">
-        <div className=" mb-[30px] text-[50px] ">
-          <div>Hi!</div>
-          <div>I'm Poonyawee Rattanapit</div>
-          <div>a Fullstack Developer</div>
+        <div className=" mb-[30px] text-[50px] text-[#002265] ">
+          <div className="font-semibold">Hi!</div>
+          <div className="font-extrabold ">I'm Poonyawee Rattanapit</div>
+          <div className="font-extrabold ">a Fullstack Developer</div>
         </div>
         <div className="w-[700px] text-[35px] ">
           Front-End devel oper based in Bekasi, Indonesian I’am coding with a

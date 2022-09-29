@@ -4,9 +4,13 @@ import mail from "../Img/mail-Vector.svg";
 import tel from "../Img/tel-Vector.svg";
 function ContactMe() {
   return (
-    <div className="flex flex-col justify-center items-center p-[50px]">
-      <div className="text-[50px] font-semibold mb-[50px]">
-        <div>Contact Me</div>
+    <div
+      id="contactme"
+      className="flex flex-col justify-center items-center p-[50px]"
+    >
+      <div className="flex flex-row justify-center items-center mb-[50px]">
+        <span className="text-[50px] mr-[10px] text-[#14279B]">Contact</span>
+        <span className="text-[50px] font-semibold text-[#002265]">Me</span>
       </div>
       <div className="flex flex-row justify-center items-center ">
         <img src={git} alt="" />
