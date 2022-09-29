@@ -3,6 +3,7 @@ import Navbar from "./component/Navbar";
 import Introduction from "./component/Introduction";
 import AboutMe from "./component/AboutMe";
 import ContactMe from "./component/ContactMe";
+import Passion from "./component/Passion";
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <main>
         <Introduction />
         <AboutMe />
+        <Passion />
       </main>
       <footer>
         <ContactMe />
